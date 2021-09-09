@@ -145,8 +145,8 @@ h2 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 120%;
     width: 100%;
-    height: 100%;
     position: relative;
 }
 
@@ -157,6 +157,7 @@ h2 {
     left:0;
     height:100%;
     width:100%;
+    visibility: hidden;
 }
 
 .container-fluid {
@@ -232,10 +233,6 @@ h2 {
 
 #bg-image1 {
     background-image: url(img/gifts.jpeg);
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    display: none;
 }
 
 .carousel-indicators li {
