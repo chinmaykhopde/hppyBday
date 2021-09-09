@@ -1,0 +1,23 @@
+{
+  "name": "first-anniversary-of-love",
+  "version": "1.0.0",
+  "description": "demo：[https://ain-crad.github.io/First-Anniversary-of-Love](https://ain-crad.github.io/First-Anniversary-of-Love)",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "http-server -p 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ain-Crad/First-Anniversary-of-Love.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ain-Crad/First-Anniversary-of-Love/issues"
+  },
+  "homepage": "https://github.com/Ain-Crad/First-Anniversary-of-Love#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
+}
