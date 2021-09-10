@@ -1,4 +1,3 @@
-function revealAll() {
 	ScrollReveal().reveal('.dark-overlay', {
 		duration: 2500,
 		delay: 1000
@@ -43,13 +42,3 @@ function revealAll() {
 			z: 0
 		}
 	});
-
-}
-
-/**
- * Wait until all the assets have been loaded so a maximum height 
- * can be calculated correctly.
- */
-window.onload = function () {
-	revealAll();
-}
