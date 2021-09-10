@@ -69,17 +69,9 @@ h2 {
 
 @media only screen and (max-width: 800px) {
 	.photo-size {
-		width: auto;
-		height: 350px;
-		max-height: 350px;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	.photo-size {
-		width: auto;
-		height: 225px;
-		max-height: 225px;
+		width: 400px;
+		height: 800px;
+		max-height: 800px;
 	}
 }
 
@@ -167,11 +159,6 @@ h2 {
 	visibility: hidden;
 }
 
-.container-fluid {
-	padding-bottom: 4rem;
-	padding-top: 4rem;
-}
-
 #showcase .container {
 	font-family: Roboto, sans-serif;
 	max-width: 100%;
@@ -208,6 +195,8 @@ h2 {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	height: 100%;
+	padding-bottom: 4rem;
+	padding-top: 4rem;
 }
 
 #showcase p {
@@ -220,7 +209,7 @@ h2 {
 	padding: 30px 20px;
 	background-color: rgba(255, 255, 255, 0.9);
 	height: 100%;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 }
 
