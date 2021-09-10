@@ -1,19 +1,20 @@
+const baseDelay = 10000;
 ScrollReveal().reveal('.dark-overlay', {
     duration: 2500,
-    delay: 8000
+    delay: baseDelay
 });
 
 ScrollReveal().reveal('div.right', {
     origin: 'bottom',
     interval: 2000,
-    delay: 3000,
+    delay: baseDelay + 2000,
     useDelay: 'onload'
 });
 
 ScrollReveal().reveal('div.left', {
     origin: 'bottom',
     interval: 2000,
-    delay: 4000,
+    delay: baseDelay + 3000,
     useDelay: 'onload'
 });
 
