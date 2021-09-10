@@ -55,8 +55,8 @@ h2 {
 
 /* Carousels*/
 .carousel-inner {
-	background-color: rgba(0, 0, 0, 1);
-	border: 2px solid #000;
+	/* background-color: rgba(0, 0, 0, 1);
+	border: 2px solid #000; */
 }
 
 @media only screen and (max-width: 1600px) {
@@ -207,7 +207,7 @@ h2 {
 
 .light-overlay {
 	padding: 30px 20px;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 1);
 	height: 100%;
 	width: 100%;
 	margin: auto;
