@@ -1,6 +1,6 @@
 ScrollReveal().reveal('.dark-overlay', {
     duration: 2500,
-    delay: 1000
+    delay: 8000
 });
 
 ScrollReveal().reveal('div.right', {
